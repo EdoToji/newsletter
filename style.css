@@ -1,0 +1,176 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: top; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh; /* Sets the body height to the full viewport */
+    margin: 0; /* Removes default margin */
+    text-align: center;
+  }
+  #heading{
+    font-size: 3.5em;
+    margin-bottom: 0em;
+  }
+  #summary{
+    font-size: 1.3em; /* Adjust font size as needed */
+    color: grey;
+    max-width: 750px; /* Optional: restricts text width for readability */
+    padding-top: 0;
+    padding-bottom: 3%;
+}
+.form-box{
+    height: 200px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);;
+    color: #888;
+}
+#email-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 370px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    border-width: 1px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #email::placeholder {
+    color: #888; /* Change the color of the placeholder */
+    font-size: 18px; /* Adjust size if needed */
+  }
+
+  #submit-btn{
+    border: none;            /* Removes the default border */
+    background: none;        /* Removes the default background */
+    padding: 0;              /* Removes default padding */
+    outline: none;           /* Removes outline on focus */
+    cursor: pointer;         /* Changes cursor to pointer for button */
+    background-color: #3662E3;
+    color: white;
+    width: 400px;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  #submit-btn:hover{
+    background-color: #456de7;
+  }
+  #email-img{
+    height: 50px;
+    width: 50px;
+    padding-top: 3%;
+    padding-bottom: 0%;
+  }
